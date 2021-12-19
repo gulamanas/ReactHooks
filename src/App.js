@@ -1,10 +1,10 @@
 import './App.css';
-import HookCounterThree from './component/HookCounterThree';
+import HookCounterFour from './component/HookCounterFour';
 
 function App() {
   return (
     <div className="App">
-      <HookCounterThree />
+      <HookCounterFour />
     </div>
   );
 }

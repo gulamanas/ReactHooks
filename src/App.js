@@ -1,10 +1,11 @@
 import './App.css';
 import DataFetcing from './fetch/DataFetcing';
+import SingleDataFetch from './fetch/SingleDataFetch';
 
 function App() {
   return (
     <div className="App">
-      <DataFetcing />
+      <SingleDataFetch />
     </div>
   );
 }

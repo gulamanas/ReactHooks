@@ -1,10 +1,10 @@
 import './App.css';
-import IntervalHookCounter from './component/useStateCounter/IntervalHookCounter';
+import DataFetcing from './fetch/DataFetcing';
 
 function App() {
   return (
     <div className="App">
-      <IntervalHookCounter />
+      <DataFetcing />
     </div>
   );
 }

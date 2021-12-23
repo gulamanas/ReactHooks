@@ -1,11 +1,18 @@
+import React from 'react';
 import './App.css';
-import DataFetcing from './fetch/DataFetcing';
-import SingleDataFetch from './fetch/SingleDataFetch';
+import ComponentC from './component/ComponentC';
+
+export const UserContext = React.createContext()
+export const LanguageContext = React.createContext()
 
 function App() {
   return (
     <div className="App">
-      <SingleDataFetch />
+      <UserContext.Provider value={'Jayaprakash'}>
+        <LanguageContext.Provider value={'Javascript'}>
+          <ComponentC />
+        </LanguageContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }

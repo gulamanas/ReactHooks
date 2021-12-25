@@ -1,18 +1,20 @@
+// import ComponentC from './component/ComponentC';
 import React from 'react';
 import './App.css';
-import ComponentC from './component/ComponentC';
+import CounterOne from './reducer/CounterOne';
 
-export const UserContext = React.createContext()
-export const LanguageContext = React.createContext()
+// export const UserContext = React.createContext()
+// export const LanguageContext = React.createContext()
 
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={'Jayaprakash'}>
+      <CounterOne />
+      {/* <UserContext.Provider value={'Jayaprakash'}>
         <LanguageContext.Provider value={'Javascript'}>
           <ComponentC />
         </LanguageContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
     </div>
   );
 }

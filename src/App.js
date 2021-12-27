@@ -1,6 +1,7 @@
 // import ComponentC from './component/ComponentC';
 import React from 'react';
 import './App.css';
+import ClassTimer from './useRef/ClassTimer';
 import FocusInput from './useRef/FocusInput';
 
 // export const UserContext = React.createContext()
@@ -9,7 +10,8 @@ import FocusInput from './useRef/FocusInput';
 function App() {
   return (
     <div className="App">
-      <FocusInput />
+      <ClassTimer />
+      {/* <FocusInput /> */}
       {/* <UserContext.Provider value={'Jayaprakash'}>
         <LanguageContext.Provider value={'Javascript'}>
           <ComponentC />

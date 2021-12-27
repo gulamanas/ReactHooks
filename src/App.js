@@ -1,7 +1,7 @@
 // import ComponentC from './component/ComponentC';
 import React from 'react';
 import './App.css';
-import CounterOne from './reducer/CounterOne';
+import FocusInput from './useRef/FocusInput';
 
 // export const UserContext = React.createContext()
 // export const LanguageContext = React.createContext()
@@ -9,7 +9,7 @@ import CounterOne from './reducer/CounterOne';
 function App() {
   return (
     <div className="App">
-      <CounterOne />
+      <FocusInput />
       {/* <UserContext.Provider value={'Jayaprakash'}>
         <LanguageContext.Provider value={'Javascript'}>
           <ComponentC />
